@@ -19,4 +19,4 @@ gulp.task('watch', function () {
   gulp.watch('js/**/*.js', gulp.series(['concat']));
 });
 
-gulp.task('default', gulp.series(['styles', 'concat']))
+gulp.task('default', gulp.series(['styles', 'concat']));
