@@ -4,14 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>todo mvc</title>
+  <title>todo gulp</title>
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+  <form autocomplete="off" id="todoForm">
+    <label for="todo">
+      <input
+        type="text" 
+        name="todo" id="todo" placeholder="create a new todo!" />
+    </label>
+    <button>
+      create
+    </button>
+  </form>
 
-  <p>
-    hi
-  </p>
+  <div id="todos"></div>
   <script src="./js/main.js"></script>
 </body>
 </html>
