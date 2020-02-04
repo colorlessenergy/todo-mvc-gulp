@@ -5,18 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>todo gulp</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <form autocomplete="off" id="todoForm">
+  <form class="form" autocomplete="off" id="todoForm">
     <label for="todo">
       <input
+        class="form__input"
         type="text" 
         name="todo" id="todo" placeholder="create a new todo!" />
     </label>
-    <button>
-      create
-    </button>
   </form>
 
   <div id="todos"></div>
