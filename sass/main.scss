@@ -1,5 +1,3 @@
 $base-color: #c6538c;
 
-p {
-  color: $base-color;
-}
+@import '_base.scss', '_module.scss';
